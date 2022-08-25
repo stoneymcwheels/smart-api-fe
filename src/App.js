@@ -87,7 +87,7 @@ class App extends Component {
       .then(response => {
         console.log('hi', response)
         if (response) {
-          fetch('https://cors-anywhere.herokuapp.com/https://arcane-wave-61194.herokuapp.com:3000/image', {
+          fetch('https://cors-anywhere.herokuapp.com/https://hidden-ridge-78261.herokuapp.com:3000/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
